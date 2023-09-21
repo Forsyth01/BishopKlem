@@ -15,7 +15,7 @@ const SideNavToggleProvider = (props) => {
     return (
         <SideNavToggle.Provider value={{ isOpen, setIsOpen, toggleSideNav, gsap}}>
             {props.children}
-        </SideNavToggle.Provider>
+        </SideNavToggle.Provider> 
     );
 };
 
